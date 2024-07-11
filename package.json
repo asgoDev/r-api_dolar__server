@@ -1,0 +1,23 @@
+{
+  "name": "06__r-api-dolar",
+  "version": "1.0.0",
+  "description": "A fullstack project that allows the client to know the current value of the dollar",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "asgoDev",
+  "license": "ISC",
+  "dependencies": {
+    "@extractus/article-extractor": "^8.0.10",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5",
+    "env-var": "^7.5.0",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
