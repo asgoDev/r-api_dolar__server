@@ -2,11 +2,11 @@
   "name": "06__r-api-dolar",
   "version": "1.0.0",
   "description": "A fullstack project that allows the client to know the current value of the dollar",
-  "main": "src/index.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon index.js"
   },
   "author": "asgoDev",
   "license": "ISC",
